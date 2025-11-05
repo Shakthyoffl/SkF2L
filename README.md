@@ -145,7 +145,7 @@ premium_user      - List all premium users [FOR ADMINS ONLY]
 ### 🔹 DEPLOY ON HEROKU
 
 <p><br>
-<a href="https://heroku.com/deploy?template=https://github.com/Botsthe/AV-FILE-TO-LINK-PRO.git">
+<a href="https://heroku.com/deploy?template=https://github.com/Shakthyoffl/SkF2L">
 <img src="https://www.herokucdn.com/deploy/button.svg" alt="DEPLOY ON HEROKU">
 </a></p>
 
