@@ -23,6 +23,7 @@
     },
     "APP_NAME": {
       "description": "Heroku app name (optional)"
+      "required" : false
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org"
