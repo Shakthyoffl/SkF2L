@@ -19,10 +19,11 @@
   "env": {
     "ENV": {
       "description": "Set this to True if you don't want the bot to crash",
-      "value": "True"
+      "value": "False"
     },
     "APP_NAME": {
       "description": "Heroku app name (optional)"
+      "required": false
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org"
