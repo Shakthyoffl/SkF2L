@@ -22,7 +22,7 @@
       "value": "False"
     },
     "APP_NAME": {
-      "description": "Heroku app name (optional)"
+      "description": "Heroku app name (optional)",
       "required": false
     },
     "API_ID": {
@@ -120,7 +120,7 @@
     },
     "DATABASE_URI": {
       "description": "MongoDB URI",
-      "required": true
+      "required": false
     },
     "DATABASE_NAME": {
       "description": "MongoDB database name",
@@ -211,4 +211,4 @@
       "size": "eco"
     }
   }
-  }
+}
