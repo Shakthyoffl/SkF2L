@@ -15,7 +15,7 @@ BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002963111875'))  # File storage 
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002963111875'))  # General log channel
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002963111875'))  # Premium user actions log
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002963111875'))  # Verified user actions log
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002722906058"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002731657890"))
 
 # add admin IDs 11111 2222 3333 and add auth channel IDs -100XXX -100XXX -100XXX
 ADMINS = list(map(int, environ.get('ADMINS', '7844061005').split()))  # List of admin user IDs
