@@ -47,8 +47,8 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'techvjlink.site')  # Shortener sit
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd73e70a35dc3877fa14afbf51fa8ec312c94780c')  # API key for shortlink
 
 # 💾 MongoDB Connection Information
-DB_URL = environ.get('DATABASE_URI', "mongodb+srv://Shakthy:<db_password>@cluster0.mobii7v.mongodb.net/?appName=Cluster0")  # MongoDB connection URI
-DB_NAME = environ.get('DATABASE_NAME', "Cluster0")  # MongoDB database name
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://Shakthy:Shakthy10@leoxmoviebot.3wvuf8c.mongodb.net/?appName=LeoXMovieBot")  # MongoDB connection URI
+DB_NAME = environ.get('DATABASE_NAME', "LeoXMovieBot")  # MongoDB database name
 
 # 📸 all Media (Images)
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/6afb4093d5ec5c4176979.jpg')  # QR Code image
