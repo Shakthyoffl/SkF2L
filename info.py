@@ -12,9 +12,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7735629958:AAG2dJ2-XJx0c9w3N1O3MXlnSJEPkXE
 
 # 👑, Channels & Logs
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002963111875'))  # File storage channel
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002963111875'))  # General log channel
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002963111875'))  # Premium user actions log
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002963111875'))  # Verified user actions log
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003246432073'))  # General log channel
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003246432073'))  # Premium user actions log
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003246432073'))  # Verified user actions log
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002731657890"))
 
 # add admin IDs 11111 2222 3333 and add auth channel IDs -100XXX -100XXX -100XXX
