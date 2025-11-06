@@ -8,7 +8,7 @@ SESSION = environ.get('SESSION', 'Webavbot')  # Pyrogram client session name
 
 API_ID = int(environ.get('API_ID', '27549502'))  # Telegram API ID
 API_HASH = environ.get('API_HASH', '35892287036e27af8e9298f03483fdd4')  # Telegram API Hash
-BOT_TOKEN = environ.get('BOT_TOKEN', '8355355767:AAH8h_eGqtTlmB1DnMRM9IL1B5SwfCsDypg')  # Telegram Bot Token
+BOT_TOKEN = environ.get('BOT_TOKEN', '8355355767:AAFOD_Ih3D3D_Phz3OKBVVQZbyzwzMIFquw')  # Telegram Bot Token
 
 # 👑, Channels & Logs
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002963111875'))  # File storage channel
@@ -47,8 +47,8 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'techvjlink.site')  # Shortener sit
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd73e70a35dc3877fa14afbf51fa8ec312c94780c')  # API key for shortlink
 
 # 💾 MongoDB Connection Information
-DB_URL = environ.get('DATABASE_URI', "mongodb+srv://shakthyoffl:Shakthy10@leoxf2l.s434vq7.mongodb.net/?appName=LeoXF2L")  # MongoDB connection URI
-DB_NAME = environ.get('DATABASE_NAME', "LeoXF2L")  # MongoDB database name
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://Shakthy:<db_password>@cluster0.mobii7v.mongodb.net/?appName=Cluster0")  # MongoDB connection URI
+DB_NAME = environ.get('DATABASE_NAME', "Cluster0")  # MongoDB database name
 
 # 📸 all Media (Images)
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/6afb4093d5ec5c4176979.jpg')  # QR Code image
