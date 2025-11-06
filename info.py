@@ -19,7 +19,7 @@ SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002722906058"))
 
 # add admin IDs 11111 2222 3333 and add auth channel IDs -100XXX -100XXX -100XXX
 ADMINS = list(map(int, environ.get('ADMINS', '7844061005').split()))  # List of admin user IDs
-AUTH_CHANNEL = list(map(int, environ.get("AUTH_CHANNEL", "-1002102037760 -1002012150170").split()))  # Allowed channels for authorization
+AUTH_CHANNEL = list(map(int, environ.get("AUTH_CHANNEL", "-1002874901332").split()))  # Allowed channels for authorization
 
 # username add without @
 OWNER_USERNAME = environ.get("OWNER_USERNAME", '@LeoDassX')  # Owner's username
