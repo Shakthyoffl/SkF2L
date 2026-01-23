@@ -8,7 +8,7 @@ SESSION = environ.get('SESSION', 'Webavbot')  # Pyrogram client session name
 
 API_ID = int(environ.get('API_ID', '27549502'))  # Telegram API ID
 API_HASH = environ.get('API_HASH', '35892287036e27af8e9298f03483fdd4')  # Telegram API Hash
-BOT_TOKEN = environ.get('BOT_TOKEN', '8561246829:AAF8GzTVXQh_4XEPoN4f0NH7qt5DB0BUCaI')  # Telegram Bot Token
+BOT_TOKEN = environ.get('BOT_TOKEN', '8303391087:AAELXmnZ1R1yT_op4KOnlVwJGPScGCHuUIo')  # Telegram Bot Token
 
 # 👑, Channels & Logs
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002963111875'))  # File storage channel
@@ -87,7 +87,7 @@ PORT = int(getenv('PORT', '2626'))  # Port for web server
 NO_PORT = str(getenv("NO_PORT", True)).lower() in ("true", "1", "yes")  # Disable port in URL
 HAS_SSL = str(getenv("HAS_SSL", True)).lower() in ("true", "1", "yes")  # Use HTTPS if True
 BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "127.0.0.1")  # Server bind address
-FQDN = getenv("FQDN", "cdn-beestream-16d9db1105a9.herokuapp.com/") or BIND_ADDRESS  # Full domain name or fallback to bind address
+FQDN = getenv("FQDN", "tamilyogi.sbs/") or BIND_ADDRESS  # Full domain name or fallback to bind address
 PORT_SEGMENT = "" if NO_PORT else f":{PORT}/"  # Port in URL if not disabled
 PROTOCOL = "https" if HAS_SSL else "http"  # Protocol for URL
 URL = f"{PROTOCOL}://{FQDN}{PORT_SEGMENT}"  # Final generated base URL
