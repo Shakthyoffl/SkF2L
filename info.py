@@ -23,7 +23,7 @@ AUTH_CHANNEL = list(map(int, environ.get("AUTH_CHANNEL", "-1002874901332").split
 
 # username add without @
 OWNER_USERNAME = environ.get("OWNER_USERNAME", '@LeoDassX')  # Owner's username
-BOT_USERNAME = environ.get("BOT_USERNAME", '@LeoXF2Lbot')  # Bot's username
+BOT_USERNAME = environ.get("BOT_USERNAME", '@Beestreambot')  # Bot's username
 
 # 🔗 Channel & Support Links
 CHANNEL = environ.get('CHANNEL', 'https://t.me/o1tamilmv')  # Updates channel
