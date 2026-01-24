@@ -85,9 +85,9 @@ else:
 # 🌐 Server Settings
 PORT = int(getenv('PORT', '2626'))  # Port for web server
 NO_PORT = str(getenv("NO_PORT", False)).lower() in ("true", "1", "yes")  # Disable port in URL
-HAS_SSL = str(getenv("HAS_SSL", True)).lower() in ("true", "1", "yes")  # Use HTTPS if True
-BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "127.0.0.1")  # Server bind address
-FQDN = getenv("FQDN", "82.112.226.50/") or BIND_ADDRESS  # Full domain name or fallback to bind address
+HAS_SSL = str(getenv("HAS_SSL", False)).lower() in ("true", "1", "yes")  # Use HTTPS if True
+BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "0.0.0.0")  # Server bind address
+FQDN = getenv("FQDN", "82.112.226.50") or BIND_ADDRESS  # Full domain name or fallback to bind address
 PORT_SEGMENT = "" if NO_PORT else f":{PORT}/"  # Port in URL if not disabled
 PROTOCOL = "https" if HAS_SSL else "http"  # Protocol for URL
 URL = f"{PROTOCOL}://{FQDN}{PORT_SEGMENT}"  # Final generated base URL
